@@ -1,4 +1,4 @@
-FROM node
+FROM node:10
 
 WORKDIR /sa/practica_8
 
