@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 80;
 const db = require('./queries');
+const cors = require("cors");
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use(
@@ -12,12 +14,12 @@ app.use(
 );
 
 app.get('/', (request, response) => {
-    response.json({ info: 'Practica 8, Software Avanzado' })
+    response.json({ info: 'Practica 8, Software Avanzado' });
 });
 
 app.get('/usuarios', db.getUsers);
 app.post('/usuarios', db.createUser);
 
 app.listen(port, () => {
-    console.log(`App running on port ${port}.`)
+    console.log(`App running on port ${port}.`);
 });

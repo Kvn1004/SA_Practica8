@@ -12,7 +12,7 @@ services:
       PORT: 80
 
   db:
-    image: postgres
+    image: db:1.0
     ports:
       - "35432:5432"
     environment: 

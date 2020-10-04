@@ -1,4 +1,3 @@
-var contador = 0;
 const Pool = require('pg').Pool;
 const pool = new Pool({
     user: 'postgres',
@@ -26,7 +25,6 @@ const createUser = (request, response) => {
         response.status(201).send('Usuario creado');
     });
 };
-
 
 module.exports = {
     getUsers,
