@@ -1,4 +1,4 @@
-# Practica 8 Software Avanzado -  Contenedores: conceptos, Docker, docker compose
+# Practica 9 Software Avanzado -  Contenedores: construcción compuesta de Docker compose
 Esta aplicación contiene las definiciones de un ambiente en Docker, utilizando un servidor web con node.js, y una base de datos PostgreSQL.
 Se realiza la consulta a la base de datos por medio de un método GET al path /usuarios y se pueden añadir nuevos registros con el método POST y los parámetros id, nombre y correo.
 
