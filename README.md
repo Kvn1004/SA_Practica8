@@ -2,8 +2,11 @@
 Esta aplicación contiene las definiciones de un ambiente en Docker, utilizando un servidor web con node.js, y una base de datos PostgreSQL.
 Se realiza la consulta a la base de datos por medio de un método GET al path /usuarios y se pueden añadir nuevos registros con el método POST y los parámetros id, nombre y correo.
 
-## Demostración
+## Demostración (Parte práctica 8)
 (https://drive.google.com/file/d/1HEgE-R3nJZ_qSyp38LvDukVGpWQPx_kt/view?usp=sharing)
+
+## Demostración (Parte práctica 9)
+(https://drive.google.com/file/d/1B4q3jUzDnZrHe3j0pDKtGlYTKeF-4zc9/view?usp=sharing)
 
 ## Instalación
 Primero se debe instalar el software de Docker, el cual se puede obtener de su página oficial.
