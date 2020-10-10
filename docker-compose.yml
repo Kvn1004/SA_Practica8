@@ -21,3 +21,10 @@ services:
       - POSTGRES_DB=postgres
     volumes:
       - ./var/lib/postgresql/data/
+
+  client:
+    image: client:1.0
+    volumes:
+      - ./usr/share/nginx/html/
+    ports:
+      - "8100:80"
